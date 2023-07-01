@@ -5,7 +5,7 @@ import styled from 'styled-components'
 const Button = styled.button`
   margin: 1rem 0;
   border: none;
-  background-color: red;
+  background-color: #c0392b;
   color: #fff;
   padding: 1.5rem 2rem;
   font-size: 1.2rem;
