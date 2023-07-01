@@ -663,10 +663,10 @@ export default function Home() {
             Frequently Asked Questions about SEO for Swimming Pool Contractors
           </h2>
           <div>
-            <h3>How much does SEO cost for a business for Pool Builders?</h3>
+            <h3>How much does SEO consulting cost for pool builders?</h3>
             <p>
-              It can cost between $1500 and $5000 for SEO services for your
-              swimming pool company.
+              It can cost between $1500 and $5000 a month for SEO services for
+              your swimming pool company.
             </p>
             <p>But how much is it costing you not doing SEO?</p>
             <p>Let's see</p>
