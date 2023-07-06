@@ -7,9 +7,8 @@ import GoogleAnalytics from './components/googleAnalytics/page'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title:
-    'Pool Builder SEO Consultant Ready To Get You More Traffic, Leads, and Sales',
-  description: `Want to work with the best Pool Builder SEO consultant? You're in luck! I'm taking a small number of new clients. Click here to learn more.`,
+  title: 'Pool Builder SEO Consultant | I Help Pool Builders Get More Leads',
+  description: `I help pool builders and pool contractors boost website traffic, leads, and sales with search engine optimization. Book your SEO consultation today!`,
   alternates: {
     canonical: 'https://poolbuilderseoconsultant.com',
   },
