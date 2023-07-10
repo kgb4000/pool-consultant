@@ -74,7 +74,10 @@ export default function Home() {
                 loading="lazy"
               />
               <div className="grid-item-2">
-                <h3>#1. Other Pool Companies are Already Doing SEO on Their Website</h3>
+                <h3>
+                  #1. Other Pool Companies are Already Doing SEO on Their
+                  Website
+                </h3>
                 <p>
                   Every time you look for your services, you see your
                   competitors on the first page.
@@ -139,7 +142,7 @@ export default function Home() {
                   A good SEO strategy raises your online visibility and ensures
                   that your business appears near the top of local search
                   results. When you appear at the top, it makes it easier for
-                  people to find your pool business website, which leads to more
+                  people to find your pool builder website, which leads to more
                   traffic, leads, and ultimately more sales.
                 </p>
                 <p>SEO also makes your site easier to use.</p>
@@ -167,7 +170,9 @@ export default function Home() {
                 loading="lazy"
               />
               <div className="grid-item-2">
-                <h3>#3. More People Will See Your Pool Company on Google</h3>
+                <h3>
+                  #3. More People Will See Your Pool Builder Website on Google
+                </h3>
                 <p>
                   When your business shows up on the first page of Google, your
                   web presence grows.
@@ -183,8 +188,8 @@ export default function Home() {
                   your business.
                 </p>
                 <p>
-                  And if more people visit your website, you're more likely to
-                  get more leads, customers, and sales.
+                  And if more people visit your pool business website, you're
+                  more likely to get more leads, customers, and sales.
                 </p>
                 <p>This brings us to the fourth point.</p>
               </div>
@@ -320,17 +325,17 @@ export default function Home() {
                     pool maintenance services.
                   </p>
                   <p>
-                    I'll transform your pool company website into a machine that
-                    brings in leads. You can show up in the map pack and the
-                    organic search results, giving you more digital space than
+                    I'll transform your pool builder website into a machine that
+                    attracts people looking to build a swimming pool. You will appear in the Google Map pack and the
+                    organic search results, giving you more visibility than
                     your competitors.
                   </p>
                   <p>
-                    It doesn't matter if your business is in Annapolis, MD,
+                    It doesn't matter if your swimming pool company is in Annapolis, MD,
                     McLean, VA, or Houston, TX.
                   </p>
                   <p>
-                    No matter if you run a one-person swimming pool company or a
+                    Doesn't matter if you run a one-person swimming pool company or a
                     pool construction company with a hundred employees, I can
                     help you.
                   </p>
@@ -868,10 +873,8 @@ export default function Home() {
               loading="lazy"
             />
             <div>
-              <p>
-                Greetings, I'm Kester, an experienced search engine optimization
-                specialist with over five years of dedicated expertise.
-              </p>
+              <p>Greetings, I'm Kester.</p>
+              <p>I'm do SEO for swimming pool builder websites.</p>
               <p>
                 Throughout my career, I have achieved remarkable success by
                 consistently placing businesses on the coveted first page and
@@ -906,7 +909,7 @@ export default function Home() {
                 rationale behind each strategic decision.
               </p>
               <p>
-                Choose me as your SEO partner, and together we will embark on a
+                Choose me as your pool builder SEO partner, and together we will embark on a
                 transformative journey to elevate your digital presence and
                 achieve remarkable results.
               </p>
