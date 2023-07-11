@@ -1,10 +1,6 @@
 import './globals.scss'
-import Head from 'next/head'
 import StyledComponentsRegistry from '/registry'
-import { Inter } from 'next/font/google'
-import GoogleAnalytics from './components/googleAnalytics/page'
-
-const inter = Inter({ subsets: ['latin'] })
+import Script from 'next/script'
 
 export const metadata = {
   title: 'Pool Builder SEO Consultant | I Help Pool Builders Get Leads',
@@ -17,9 +13,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <GoogleAnalytics />
-      </Head>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-YRDW6P3R0K
+      "
+      />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-YRDW6P3R0K');
+        `}
+      </Script>
       <body>
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
       </body>
