@@ -1,6 +1,8 @@
 import './globals.scss'
 import StyledComponentsRegistry from '/registry'
 import Script from 'next/script'
+import GA4 from './components/GA4'
+import * as gtag from 'lib/gtag'
 
 export const metadata = {
   title: 'Pool Builder SEO Consultant | I Help Pool Builders Get Leads',
@@ -11,18 +13,27 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  ;<GA4 />
   return (
     <html lang="en">
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-YRDW6P3R0K" />
-      <Script id="google-analytics">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-YRDW6P3R0K');
-        `}
-      </Script>
+      {/* Global Site Tag (gtag.js) - Google Analytics */}
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+      />
+      <Script
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${gtag.GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
       <body>
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
       </body>

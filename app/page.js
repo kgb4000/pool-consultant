@@ -74,10 +74,7 @@ export default function Home() {
                 loading="lazy"
               />
               <div className="grid-item-2">
-                <h3>
-                  #1. Other Pool Companies are Already Doing SEO on Their
-                  Website
-                </h3>
+                <h3>#1. Other Pool Companies are Already Doing SEO</h3>
                 <p>
                   Every time you look for your services, you see your
                   competitors on the first page.
@@ -95,8 +92,8 @@ export default function Home() {
                   attract more customers, and grow their businesses.
                 </p>
                 <p>
-                  If you don't do SEO for your business, you're falling behind
-                  and losing customers to your competitors.
+                  If you don't do SEO for your pool company, you're falling
+                  behind and losing customers to your competitors.
                 </p>
                 <p>
                   Customers are looking for you, but they are finding your
@@ -135,7 +132,7 @@ export default function Home() {
                   #2. You Gain a Competitive Advantage Over Other Pool Companies
                 </h3>
                 <p>
-                  Putting money into SEO gives your business an edge over your
+                  Doing pool builder SEO gives your business an edge over your
                   competition and helps you stand out in a crowded market.
                 </p>
                 <p>
@@ -170,25 +167,23 @@ export default function Home() {
                 loading="lazy"
               />
               <div className="grid-item-2">
-                <h3>
-                  #3. More People Will See Your Pool Builder Website on Google
-                </h3>
+                <h3>#3. More People Will See Your Pool Company on Google</h3>
                 <p>
                   When your business shows up on the first page of Google, your
                   web presence grows.
                 </p>
-                <p>More people will see your business and website.</p>
+                <p>More people will see your pool company.</p>
                 <p>
                   When your business is on the first page, it's like being on
                   the main street of a busy city.
                 </p>
                 <p>More people will see it.</p>
                 <p>
-                  More people will visit your website if more people know about
-                  your business.
+                  More people will visit your website if they see it and are
+                  interested in your services.
                 </p>
                 <p>
-                  And if more people visit your pool business website, you're
+                  And if more people visit your pool company website, you're
                   more likely to get more leads, customers, and sales.
                 </p>
                 <p>This brings us to the fourth point.</p>
@@ -326,18 +321,18 @@ export default function Home() {
                   </p>
                   <p>
                     I'll transform your pool builder website into a machine that
-                    attracts people looking to build a swimming pool. You will appear in the Google Map pack and the
-                    organic search results, giving you more visibility than
-                    your competitors.
+                    attracts people looking to build a swimming pool. You will
+                    appear in the Google Map pack and the organic search
+                    results, giving you more visibility than your competitors.
                   </p>
                   <p>
-                    It doesn't matter if your swimming pool company is in Annapolis, MD,
-                    McLean, VA, or Houston, TX.
+                    It doesn't matter if your swimming pool company is in
+                    Annapolis, MD, McLean, VA, or Houston, TX.
                   </p>
                   <p>
-                    Doesn't matter if you run a one-person swimming pool company or a
-                    pool construction company with a hundred employees, I can
-                    help you.
+                    Doesn't matter if you run a one-person swimming pool company
+                    or a pool construction company with a hundred employees, I
+                    can help you.
                   </p>
                   <p>
                     You can get the best leads and customers in your industry by
@@ -874,7 +869,7 @@ export default function Home() {
             />
             <div>
               <p>Greetings, I'm Kester.</p>
-              <p>I'm do SEO for swimming pool builder websites.</p>
+              <p>I am a pool builder search engine optimization specialist.</p>
               <p>
                 Throughout my career, I have achieved remarkable success by
                 consistently placing businesses on the coveted first page and
@@ -909,9 +904,9 @@ export default function Home() {
                 rationale behind each strategic decision.
               </p>
               <p>
-                Choose me as your pool builder SEO partner, and together we will embark on a
-                transformative journey to elevate your digital presence and
-                achieve remarkable results.
+                Choose me as your pool builder SEO partner, and together we will
+                embark on a transformative journey to elevate your digital
+                presence and achieve remarkable results.
               </p>
             </div>
           </div>
