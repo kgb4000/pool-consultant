@@ -45,8 +45,8 @@ export default function Home() {
             </h1>
             <div className="subtext">
               <p>
-                I help pool builders and pool contractors get more traffic,
-                leads, and sales with search engine optimization.
+                I help pool builders and pool service companies get more web
+                traffic, leads, and sales with search engine optimization.
               </p>
               <a href={calendly}>
                 <Button>Book Your SEO Consultation!</Button>
