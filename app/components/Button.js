@@ -11,6 +11,11 @@ const Button = styled.button`
   border-radius: 5px;
   font-weight: 700;
   cursor: pointer;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
 `
 
 export default Button

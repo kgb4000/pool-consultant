@@ -14,9 +14,9 @@ const Footer = () => {
             SEO results (fast). Book your SEO consultation now:
           </p>
           <div className="center">
-            <a href={calendly}>
-              <Button>Book Your SEO Consultation Now</Button>
-            </a>
+            <Button>
+              <a href={calendly}>Book Your SEO Consultation Now</a>
+            </Button>
           </div>
         </div>
       </section>

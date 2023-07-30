@@ -64,25 +64,23 @@ export default async function Blog() {
   const posts = await getPosts()
   return (
     <>
-      <main>
-        <div className="hero">
-          <div className="container">
-            <h1 className="title">
-              SEO Blog for Pool Builders and Service Companies
-            </h1>
-            <div className="subtext">
-              <p>
-                Free and insightful pro marketing tips for pool builders and
-                service companies.
-              </p>
-              <a href={calendly}>
-                <Button>Book Your Free SEO Consultation!</Button>
-              </a>
-            </div>
+      <div className="hero">
+        <div className="container">
+          <h1 className="title">
+            SEO Blog for Pool Builders and Service Companies
+          </h1>
+          <div className="subtext">
+            <p>
+              Free and insightful pro marketing tips for pool builders and
+              service companies.
+            </p>
+            <a href={calendly}>
+              <Button>Book Your Free SEO Consultation!</Button>
+            </a>
           </div>
         </div>
-        <BlogSection posts={posts} />
-      </main>
+      </div>
+      <BlogSection posts={posts} />
     </>
   )
 }

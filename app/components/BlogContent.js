@@ -2,7 +2,7 @@
 
 import styled from 'styled-components'
 
-const BlogContent = styled.main`
+const BlogContent = styled.div`
   max-width: 700px;
   padding: 0 1.2rem;
   margin: 0 auto;
@@ -21,6 +21,10 @@ const BlogContent = styled.main`
     li {
       margin: 1rem 0;
     }
+  }
+
+  section {
+    margin: 0;
   }
   .author-info {
     h1 {
