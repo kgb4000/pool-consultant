@@ -22,35 +22,35 @@ async function getPosts() {
     },
     body: JSON.stringify({
       query: `
-    query Posts {
-      posts (orderBy: createdAt_DESC){
-        title
-        slug
-        postTitle
-        coverImage {
-          url
-          width
-          height
-        }
-        date
-        excerpt
-        content {
-          raw
-        }
-        author {
-          name
-          bio
-          photo {
+      query Posts {
+        posts (orderBy: createdAt_DESC){
+          title
+          slug
+          postTitle
+          coverImage {
             url
             width
             height
           }
-        }
-        relatedPosts {
-          raw
+          date
+          excerpt
+          content {
+            raw
+          }
+          author {
+            name
+            bio
+            photo {
+              url
+              width
+              height
+            }
+          }
+          relatedPosts {
+            raw
+          }
         }
       }
-    }
       
         `,
     }),
@@ -64,23 +64,25 @@ export default async function Blog() {
   const posts = await getPosts()
   return (
     <>
-      <div className="hero">
-        <div className="container">
-          <h1 className="title">
-            SEO Blog for Pool Builders and Service Companies
-          </h1>
-          <div className="subtext">
-            <p>
-              Free and insightful pro marketing tips for pool builders and
-              service companies.
-            </p>
-            <a href={calendly}>
-              <Button>Book Your Free SEO Consultation!</Button>
-            </a>
+      <section>
+        <div className="hero">
+          <div className="container">
+            <h1 className="title">
+              SEO Blog for Pool Builders and Service Companies
+            </h1>
+            <div className="subtext">
+              <p>
+                Free and insightful pro marketing tips for pool builders and
+                service companies.
+              </p>
+              <a href={calendly}>
+                <Button>Book Your Free SEO Consultation!</Button>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-      <BlogSection posts={posts} />
+        <BlogSection posts={posts} />
+      </section>
     </>
   )
 }

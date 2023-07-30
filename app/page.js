@@ -232,11 +232,11 @@ export default function Home() {
               </p>
             </div>
           </Reason>
-          <div className="center">
+          {/* <div className="center">
             <Button>
               <a href={calendly}>Book a Call to Get Help with SEO!</a>
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
       <section id="services">
@@ -439,11 +439,11 @@ export default function Home() {
               </div>
             </Service>
           </Services>
-          <div className="center">
+          {/* <div className="center">
             <Button>
               <a href={calendly}>Get SEO Help Today</a>
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
       <section>
@@ -623,11 +623,11 @@ export default function Home() {
               </p>
             </div>
           </Deliverables>
-          <div className="center">
+          {/* <div className="center">
             <Button>
               <a href={calendly}>Book Your Strategy Call Today!</a>
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
       <section id="faq">

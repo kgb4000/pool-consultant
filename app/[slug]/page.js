@@ -62,51 +62,49 @@ export default async function Post({ params }) {
   const postData = await getPost(params.slug)
   return (
     <>
-      <section>
-        <BlogContent>
-          <div className="blog-container author-info">
-            <h1>{postData.postTitle}</h1>
-            <img
-              src={postData.coverImage.url}
-              alt={postData.title}
-              title={postData.title}
-              loading="lazy"
-            />
-            <ShareBtn
-              shareLink={`https://poolbuilderseoconsultant.com/${postData.slug}`}
-            />
-            <p>
-              Written -{' '}
-              {new Date(postData.date).toLocaleDateString('en-us', {
-                year: 'numeric',
-                month: 'short',
-                day: 'numeric',
-              })}
-            </p>
+      <BlogContent>
+        <div className="blog-container author-info">
+          <h1>{postData.postTitle}</h1>
+          <img
+            src={postData.coverImage.url}
+            alt={postData.title}
+            title={postData.title}
+            loading="lazy"
+          />
+          <ShareBtn
+            shareLink={`https://poolbuilderseoconsultant.com/${postData.slug}`}
+          />
+          <p>
+            Written -{' '}
+            {new Date(postData.date).toLocaleDateString('en-us', {
+              year: 'numeric',
+              month: 'short',
+              day: 'numeric',
+            })}
+          </p>
 
-            <RichText content={postData.content.raw} />
-            <ShareBtn
-              shareLink={`https://poolbuilderseoconsultant.com/${postData.slug}`}
-            />
-            <Bio
-              authorImg={postData.author.photo.url}
-              authorBio={postData.author.bio}
-            />
+          <RichText content={postData.content.raw} />
+          <ShareBtn
+            shareLink={`https://poolbuilderseoconsultant.com/${postData.slug}`}
+          />
+          <Bio
+            authorImg={postData.author.photo.url}
+            authorBio={postData.author.bio}
+          />
 
-            <div className="related-posts">
-              {postData.relatedPosts && (
-                <>
-                  <h2>Other Interesting Posts</h2>
-                  <RichText content={postData.relatedPosts.raw} />
-                </>
-              )}
-            </div>
-            <p>
-              <Link href="/blog">Back to blog &rarr;</Link>
-            </p>
+          <div className="related-posts">
+            {postData.relatedPosts && (
+              <>
+                <h2>Other Interesting Posts</h2>
+                <RichText content={postData.relatedPosts.raw} />
+              </>
+            )}
           </div>
-        </BlogContent>
-      </section>
+          <p>
+            <Link href="/blog">Back to blog &rarr;</Link>
+          </p>
+        </div>
+      </BlogContent>
     </>
   )
 }
