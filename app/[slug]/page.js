@@ -4,8 +4,6 @@ import { ShareBtn } from '../components/Share-Btns'
 import Bio from '../components/Bio'
 import BlogContent from '../components/BlogContent'
 
-import Image from 'next/image'
-
 async function getPost(slug) {
   const res = await fetch(process.env.HYGRAPH_ENDPOINT, {
     method: 'POST',
@@ -19,8 +17,8 @@ async function getPost(slug) {
         title
         date
         slug
-        excerpt
         postTitle
+        excerpt
         coverImage {
           url
           width
@@ -55,7 +53,7 @@ async function getPost(slug) {
 export async function generateMetadata({ params }) {
   const postData = await getPost(params.slug)
   return {
-    title: postData.postTitle,
+    title: postData.title,
     description: postData.excerpt,
   }
 }
@@ -92,7 +90,7 @@ export default async function Post({ params }) {
                 shareLink={`https://poolbuilderseoconsultant.com/${postData.slug}`}
               />
               <Bio
-                authorImg={postData.author.photo}
+                authorImg={postData.author.photo.url}
                 authorBio={postData.author.bio}
               />
 
