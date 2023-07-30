@@ -35,7 +35,7 @@ async function getPosts() {
           date
           excerpt
           content {
-            raw
+            html
           }
           author {
             name
@@ -47,7 +47,7 @@ async function getPosts() {
             }
           }
           relatedPosts {
-            raw
+            html
           }
         }
       }
