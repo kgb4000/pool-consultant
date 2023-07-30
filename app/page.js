@@ -8,35 +8,6 @@ const calendly = 'https://calendly.com/bowieseo/seo-consultation'
 export default function Home() {
   return (
     <>
-      <header>
-        <div className="container">
-          <img
-            src="/images/pool-builder-seo.webp"
-            className="logo"
-            alt="Pool Builder SEO Consultant"
-            title="Pool Builder SEO Consultant"
-            width="250px"
-            height="auto"
-          />
-          <nav>
-            <ul className="nav">
-              <li>
-                <Link href="#services">SEO Services</Link>
-              </li>
-              <li>
-                <Link href="#me">Why Me</Link>
-              </li>
-              <li>
-                <Link href="#faq">FAQs</Link>
-              </li>
-              <li>
-                <Link href={calendly}>Book a Call!</Link>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-
       <main>
         <div className="hero">
           <div className="container">
@@ -275,7 +246,8 @@ export default function Home() {
         <section id="services">
           <div className="container">
             <h2 className="title">
-              My Swimming Pool Builder Search Engine Optimization Services
+              My Swimming Pool Builder Search Engine Optimization Services for
+              Companies that Want to Grow
             </h2>
             <Services>
               <Service>
@@ -483,7 +455,8 @@ export default function Home() {
         <section>
           <div className="container">
             <h2 className="title">
-              With a Huge Pool of SEO Companies, Why Should You Work With Me?
+              With a Huge Pool of SEO Companies, Why Work With Me, and Trust Me
+              to Help With Your SEO?
             </h2>
             <Deliverables>
               <img
@@ -673,12 +646,21 @@ export default function Home() {
             <div>
               <h3>How much does SEO consulting cost for pool builders?</h3>
               <p>
-                It can cost between $1500 and $5000 a month for SEO services for
-                your swimming pool company.
+                SEO services can cost between $2,000 and $10,000 a month (or
+                more) for your swimming pool company.
               </p>
-              <p>But how much is it costing you not doing SEO?</p>
+              <p>But how much is it costing you by not doing SEO?</p>
               <p>Let's see</p>
               <ul className="faq-list">
+                <li>
+                  <h4>Missed Opportunities to Reach More Customers</h4>
+                  <p>
+                    People look for answers to their problems on search engines.
+                    If customers looking to by a pool can't find your business
+                    when they search for what your services, you're missing out
+                    on a big opportunity to get new customers.
+                  </p>
+                </li>
                 <li>
                   <h4>Low Visibility and Website Presence</h4>
                   <p>
@@ -693,15 +675,6 @@ export default function Home() {
                     SEO also means ensuring your website is easy to use and
                     navigate. If your website is hard to use, people may think
                     less of your business.
-                  </p>
-                </li>
-                <li>
-                  <h4>Missed Opportunities to Reach More Customers</h4>
-                  <p>
-                    People look for answers to their problems on search engines.
-                    If customers looking to by a pool can't find your business
-                    when they search for what your services, you're missing out
-                    on a big opportunity to get new customers.
                   </p>
                 </li>
                 <li>
@@ -725,7 +698,7 @@ export default function Home() {
             </div>
             <div>
               <h3>Should you hire a big digital agency to help you?</h3>
-              <p>You can, but you might have these things happen:</p>
+              <p>You can, but you might experience:</p>
               <ul className="faq-list">
                 <li>
                   <h4>Less Personal Attention</h4>
@@ -758,7 +731,7 @@ export default function Home() {
                   </p>
                 </li>
                 <li>
-                  <h4>Cost</h4>
+                  <h4>Un-Necessary Cost</h4>
                   <p>
                     Larger SEO firms often have higher overhead costs, which can
                     cause their clients to pay more. If you're a small business
@@ -911,26 +884,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
-          <div className="small-container">
-            <h2 className="title">Book Your Strategy Call</h2>
-            <p className="subtext">
-              I'll analyze your website and give you feedback ASAP to drive
-              better SEO results (fast). Book your SEO consultation now:
-            </p>
-            <div className="center">
-              <a href={calendly}>
-                <Button>Book Your SEO Consultation Now</Button>
-              </a>
-            </div>
-          </div>
-        </section>
-        <footer>
-          <p>
-            Copyright &copy; {new Date().getFullYear()} Pool Builder SEO
-            Consultant
-          </p>
-        </footer>
       </main>
     </>
   )

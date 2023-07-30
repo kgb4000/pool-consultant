@@ -1,8 +1,7 @@
 import './globals.scss'
 import StyledComponentsRegistry from '/registry'
-import Script from 'next/script'
-import GA4 from './components/GA4'
-import * as gtag from 'lib/gtag'
+import Nav from './components/Nav'
+import Footer from './components/Footer'
 
 export const metadata = {
   title: 'Pool Builder SEO Consultant | I Help Pool Builders Get Leads',
@@ -13,29 +12,12 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-  ;<GA4 />
   return (
     <html lang="en">
-      {/* Global Site Tag (gtag.js) - Google Analytics */}
-      <Script
-        strategy="afterInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
-      />
-      <Script
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${gtag.GA_TRACKING_ID}', {
-              page_path: window.location.pathname,
-            });
-          `,
-        }}
-      />
       <body>
+        <Nav />
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        <Footer />
       </body>
     </html>
   )
