@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 import styled from 'styled-components'
 import Button from './/components/Button'
 
@@ -101,8 +102,12 @@ export default function Home() {
                 #2. You Gain a Competitive Advantage Over Other Pool Companies
               </h3>
               <p>
-                Doing pool builder SEO gives your business an edge over your
-                competition and helps you stand out in a crowded market.
+                Doing{' '}
+                <Link href="/pool-builder-search-engine-optimization">
+                  pool builder SEO
+                </Link>{' '}
+                gives your business an edge over your competition and helps you
+                stand out in a crowded market.
               </p>
               <p>
                 A good SEO strategy raises your online visibility and ensures

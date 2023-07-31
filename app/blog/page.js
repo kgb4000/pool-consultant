@@ -1,5 +1,4 @@
 import BlogSection from '../components/BlogSection'
-import Link from 'next/link'
 import Button from '../components/Button'
 
 const calendly = 'https://calendly.com/bowieseo/seo-consultation'

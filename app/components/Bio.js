@@ -36,7 +36,7 @@ const BioSection = styled.div`
   }
 
   img {
-    width: 10rem;
+    width: 6rem;
     border: 4px solid #cf0a0a;
     border-radius: 50%;
     margin-right: 2rem;
