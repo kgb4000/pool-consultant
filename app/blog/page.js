@@ -75,7 +75,7 @@ export default async function Blog() {
                 service companies.
               </p>
               <a href={calendly}>
-                <Button>Book Your Free SEO Consultation!</Button>
+                <Button>Book Your Free SEO Consultation Today!</Button>
               </a>
             </div>
           </div>
